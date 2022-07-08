@@ -46,14 +46,31 @@ ul {
     width: 50%;
 }
 
-.imagem{
-  display: inline-block;
+.client{
+  margin-left:320px;
+}
+
+.caixa{
+  display:inline-block;
   text-align: center;
   width: 30%;
   vertical-align: top;
-  margin: 0 1.5%;
+  margin: 0 140px 1.5% 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
-  border: 2px solid #000000;
-  border-radius: 10px;
+
+}
+
+.nome{
+  text-align:
+}
+
+
+#img{
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  margin: 5px 5px 5px 0;
+  display:inline-block;
 }
