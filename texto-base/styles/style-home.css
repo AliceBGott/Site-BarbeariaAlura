@@ -77,22 +77,24 @@ ul {
 }*/
 
 .wrapper{
-    display:grid;
+    display:flex;
     align-items: center;
+    justify-content: space-around;
+
     
 }
 
 .imagem{
-    /*display:flex;
-    justify-content: space-between; 
-    */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
     
      
      
 }
 
-.imagem img {
-    
+.imagem img { 
     max-width: 100%; /* Garante que as imagens não ultrapassem a largura da div pai */
     height: auto; /* Mantém a proporção da imagem */
     border: 500px;
